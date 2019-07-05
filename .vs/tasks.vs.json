@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-acuario.Droid",
+      "appliesTo": "Droid/acuario.Droid.csproj",
+      "type": "msbuild"
+    }
+  ]
+}

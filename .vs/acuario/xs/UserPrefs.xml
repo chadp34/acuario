@@ -1,0 +1,53 @@
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{9E892714-4C9B-4BFB-823C-55BC816F7895}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Desktop/nico.txt">
+    <Files>
+      <File FileName="Droid/Activities/BrowseItemDetailActivity.cs" Line="4" Column="22" />
+      <File FileName="acuario/Services/CloudDataStore.cs" Line="35" Column="30" />
+      <File FileName="acuario/s3/wikimap.json" Line="13" Column="23" />
+      <File FileName="acuario/ViewModels/ItemsViewModel.cs" />
+      <File FileName="iOS/ViewControllers/DetailViewControllers/BrowseItemDetailViewController.designer.cs" />
+      <File FileName="Droid/Activities/BaseActivity.cs" />
+      <File FileName="acuario/Services/IDataStore.cs" Line="1" Column="1" />
+      <File FileName="acuario/Services/MockDataStore.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewControllers/ItemNewViewController.cs" />
+      <File FileName="acuario/ViewModels/ItemDetailViewModel.cs" />
+      <File FileName="Droid/Activities/AddItemActivity.cs" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" />
+      <File FileName="acuario/App.cs" Line="13" Column="82" />
+      <File FileName="acuario/EmptyTextFile.txt" Line="5" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="acuario" expanded="True">
+            <Node name="acuario" expanded="True">
+              <Node name="s3" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="acuario.Droid" expanded="True">
+              <Node name="Activities" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="acuario.iOS" expanded="True">
+              <Node name="ViewControllers" expanded="True">
+                <Node name="DetailViewControllers" expanded="True">
+                  <Node name="BrowseItemDetailViewController.cs" expanded="True" />
+                </Node>
+                <Node name="ItemNewViewController.cs" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.acuario.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.acuario.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8ED8990-2735-4CD6-B093-4451691787DA" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
