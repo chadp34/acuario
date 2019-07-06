@@ -1,20 +1,20 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{9E892714-4C9B-4BFB-823C-55BC816F7895}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../Desktop/nico.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/BrowseItemDetailActivity.cs">
     <Files>
       <File FileName="Droid/Activities/BrowseItemDetailActivity.cs" Line="4" Column="22" />
-      <File FileName="acuario/Services/CloudDataStore.cs" Line="35" Column="30" />
-      <File FileName="acuario/s3/wikimap.json" Line="13" Column="23" />
+      <File FileName="acuario/Services/CloudDataStore.cs" />
+      <File FileName="acuario/s3/wikimap.json" />
       <File FileName="acuario/ViewModels/ItemsViewModel.cs" />
       <File FileName="iOS/ViewControllers/DetailViewControllers/BrowseItemDetailViewController.designer.cs" />
       <File FileName="Droid/Activities/BaseActivity.cs" />
-      <File FileName="acuario/Services/IDataStore.cs" Line="1" Column="1" />
-      <File FileName="acuario/Services/MockDataStore.cs" Line="1" Column="1" />
+      <File FileName="acuario/Services/IDataStore.cs" />
+      <File FileName="acuario/Services/MockDataStore.cs" />
       <File FileName="iOS/ViewControllers/ItemNewViewController.cs" />
       <File FileName="acuario/ViewModels/ItemDetailViewModel.cs" />
       <File FileName="Droid/Activities/AddItemActivity.cs" />
       <File FileName="Droid/Properties/AndroidManifest.xml" />
-      <File FileName="acuario/App.cs" Line="13" Column="82" />
-      <File FileName="acuario/EmptyTextFile.txt" Line="5" Column="8" />
+      <File FileName="acuario/App.cs" />
+      <File FileName="acuario/EmptyTextFile.txt" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

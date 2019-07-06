@@ -4,8 +4,9 @@ namespace acuario
 {
     public class App
     {
-        public static bool UseMockDataStore = true;
-        public static string BackendUrl = "https://s3-us-west-1.amazonaws.com/wikimap/wikimap.json";
+        public static bool UseMockDataStore = false;
+        public static string BackendUrl = "http://noti.heliohost.org/wikimap.json";
+//        public static string BackendUrl = "https://s3-us-west-1.amazonaws.com/wikimap/wikimap.json";
 
         public static void Initialize()
         {
