@@ -1,20 +1,16 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{9E892714-4C9B-4BFB-823C-55BC816F7895}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activities/BrowseItemDetailActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="acuario/App.cs">
     <Files>
       <File FileName="Droid/Activities/BrowseItemDetailActivity.cs" Line="4" Column="22" />
       <File FileName="acuario/Services/CloudDataStore.cs" />
-      <File FileName="acuario/s3/wikimap.json" />
       <File FileName="acuario/ViewModels/ItemsViewModel.cs" />
       <File FileName="iOS/ViewControllers/DetailViewControllers/BrowseItemDetailViewController.designer.cs" />
-      <File FileName="Droid/Activities/BaseActivity.cs" />
-      <File FileName="acuario/Services/IDataStore.cs" />
-      <File FileName="acuario/Services/MockDataStore.cs" />
       <File FileName="iOS/ViewControllers/ItemNewViewController.cs" />
       <File FileName="acuario/ViewModels/ItemDetailViewModel.cs" />
       <File FileName="Droid/Activities/AddItemActivity.cs" />
       <File FileName="Droid/Properties/AndroidManifest.xml" />
-      <File FileName="acuario/App.cs" />
-      <File FileName="acuario/EmptyTextFile.txt" />
+      <File FileName="acuario/App.cs" Line="3" Column="18" />
+      <File FileName="../../Desktop/nico.txt" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,6 +20,7 @@
               <Node name="s3" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
+              <Node name="App.cs" selected="True" />
             </Node>
             <Node name="acuario.Droid" expanded="True">
               <Node name="Activities" expanded="True" />
