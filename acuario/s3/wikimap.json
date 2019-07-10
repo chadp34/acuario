@@ -1,10 +1,11 @@
 {
-    "collections": [
+     "collections": [
         {
             "collection": 
             {
               "en": "Ocean Explorer",
-              "es": "Explorador Océano"
+              "es": "Explorador Océano",
+              "fr": "Explorateur de l'Ocean"
             },
             "attractions":  
             [
@@ -12,36 +13,42 @@
                     "name": 
                     { 
                         "en": "Stingray", 
-                        "es": "Rayas de Aguijón" 
+                        "es": "Rayas de Aguijón", 
+                        "fr": "Raie"
                     },
                     "url": 
                     { 
                         "en": "https://en.m.wikipedia.org/wiki/Stingray", 
-                        "es": "https://es.m.wikipedia.org/wiki/Myliobatoidei" 
+                        "es": "https://es.m.wikipedia.org/wiki/Myliobatoidei", 
+                        "fr": "https://fr.m.wikipedia.org/wiki/Raie"
                     }
                 },
                 {
                     "name": 
                     {
                         "en": "Blacktip Reef Shark",
-                        "es": "Tiburón Punta Negra de Arrecife"
+                        "es": "Tiburón Punta Negra de Arrecife",
+                        "fr": "Requin à pointes noires"
                     },
                     "url": 
                     {
                         "en": "https://en.m.wikipedia.org/wiki/Blacktip_reef_shark",
-                        "es": "https://es.m.wikipedia.org/wiki/Carcharhinus_melanopterus"
+                        "es": "https://es.m.wikipedia.org/wiki/Carcharhinus_melanopterus",
+                        "fr": "https://fr.m.wikipedia.org/wiki/Requin_%C3%A0_pointes_noires"
                     }
                 },
                 {
                     "name": 
                     {
                         "en": "Giant Pacific Octopus",
-                        "es": "Pulpo del Pacífico Norte"
+                        "es": "Pulpo del Pacífico Norte",
+                        "fr": "Pieuvre géante du Pacifique"
                     },
                     "url": 
                     {
                         "en": "https://en.m.wikipedia.org/wiki/Enteroctopus_dofleini",
-                        "es": "https://es.m.wikipedia.org/wiki/Enteroctopus_dofleini"
+                        "es": "https://es.m.wikipedia.org/wiki/Enteroctopus_dofleini",
+                        "fr": "https://fr.m.wikipedia.org/wiki/Pieuvre_g%C3%A9ante_du_Pacifique"
                     }
                 }
             ]
@@ -49,8 +56,9 @@
         {
             "collection": 
             {
-              "en": "Antartic Adventure",
-              "es": "Aventura Antártica"
+              "en": "Antarctic Adventure",
+              "es": "Aventura Antártica",
+              "fr": "Aventure Antarctique"
             },
             "attractions": 
             [
@@ -58,12 +66,14 @@
                     "name": 
                     {
                         "en": "Gentoo Penguin",
-                        "es": "Pingüino Juanito"
+                        "es": "Pingüino Juanito",
+                        "fr": "Manchot papou"
                     },
                     "url": 
                     {
                         "en": "https://en.m.wikipedia.org/wiki/Gentoo_penguin",
-                        "es": "https://es.m.wikipedia.org/wiki/Pygoscelis_papua"
+                        "es": "https://es.m.wikipedia.org/wiki/Pygoscelis_papua",
+                        "fr": "https://fr.m.wikipedia.org/wiki/Manchot_papou"
                     }
                 }
             ]
@@ -72,7 +82,8 @@
             "collection": 
             {
               "en": "Discover Utah",
-              "es": "Descubre Utah"
+              "es": "Descubre Utah",
+              "fr": "Découvrez Utah"
             },
             "attractions": 
             [
@@ -80,12 +91,14 @@
                     "name": 
                     {
                         "en": "North American River Otter",
-                        "es": "Nutria de río de América del Norte"
+                        "es": "Nutria de río de América del Norte",
+                        "fr": "Loutre de rivière"
                     },
                     "url": 
                     {
                         "en": "https://en.m.wikipedia.org/wiki/North_American_river_otter",
-                        "es": "https://es.m.wikipedia.org/wiki/Lontra_canadensis"
+                        "es": "https://es.m.wikipedia.org/wiki/Lontra_canadensis",
+                        "fr": "https://fr.m.wikipedia.org/wiki/Loutre_de_rivi%C3%A8re"
                     }
                 }
             ]
@@ -94,7 +107,8 @@
             "collection": 
             {
                 "en": "Journey to South America",
-                "es": "Viaje a Sudamérica"
+                "es": "Viaje a Sudamérica",
+                "fr": "Voyage vers l'Amérique du Sud"
             },
             "attractions": 
             [
@@ -102,24 +116,28 @@
                     "name": 
                     {
                         "en": "Caiman",
-                        "es": "Yacaré"
+                        "es": "Yacaré",
+                        "fr": "Caïmans"
                     },
                     "url": 
                     {
                         "en": "https://en.m.wikipedia.org/wiki/Caiman",
-                        "es": "https://es.m.wikipedia.org/wiki/Caimaninae"
+                        "es": "https://es.m.wikipedia.org/wiki/Caimaninae",
+                        "fr": "https://fr.m.wikipedia.org/wiki/Caimaninae"
                     }
                 },
                 {
                     "name": 
                     {
                         "en": "Linnaeus's Two-toed Sloth",
-                        "es": "Perezoso de Dos Dedos de Linnaeus"
+                        "es": "Perezoso de Dos Dedos de Linnaeus",
+                        "fr": "Paresseux à deux doigts"
                     },
                     "url": 
                     {
                         "en": "https://en.m.wikipedia.org/wiki/Linnaeus%27s_two-toed_sloth",
-                        "es": "https://es.m.wikipedia.org/wiki/Choloepus_didactylus"
+                        "es": "https://es.m.wikipedia.org/wiki/Choloepus_didactylus",
+                        "fr": "https://fr.m.wikipedia.org/wiki/Paresseux_%C3%A0_deux_doigts"
                     }
                 }
             ]
@@ -128,7 +146,8 @@
             "collection": 
             {
                 "en": "Expedition: Asia",
-                "es": "Expedición: Asia"
+                "es": "Expedición: Asia",
+                "fr": "Expédition: L'Asie"
             },
             "attractions": 
             [
@@ -136,12 +155,14 @@
                     "name": 
                     {
                         "en": "Asian Small-clawed Otter",
-                        "es": "Nutria Enana"
+                        "es": "Nutria Enana",
+                        "fr": "Loutre cendrée"
                     },
                     "url": 
                     {
                         "en": "https://en.m.wikipedia.org/wiki/Asian_small-clawed_otter",
-                        "es": "https://es.m.wikipedia.org/wiki/Aonyx_cinereus"
+                        "es": "https://es.m.wikipedia.org/wiki/Aonyx_cinereus",
+                        "fr": "https://fr.m.wikipedia.org/wiki/Loutre_cendr%C3%A9e"
                     }
                 }
             ]
