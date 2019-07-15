@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Plugin.Connectivity;
+using acuario.Models;
 
-namespace acuario
+namespace acuario.Services
 {
     public class CloudDataStore : IDataStore<Item>
     {
@@ -24,9 +22,10 @@ namespace acuario
             items = new List<Item>();
         }
 
+        bool IsConnected => Xamarin.Essentials.Connectivity.NetworkAccess == Xamarin.Essentials.NetworkAccess.Internet;
         public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
         {
-            if (forceRefresh && CrossConnectivity.Current.IsConnected)
+            if (forceRefresh && IsConnected)
             {
                 var json = await client.GetStringAsync($"");
                 JObject obj = JObject.Parse(json);
@@ -48,7 +47,7 @@ namespace acuario
 
         public async Task<Item> GetItemAsync(string id)
         {
-            if (id != null && CrossConnectivity.Current.IsConnected)
+            if (id != null && IsConnected)
             {
                 var json = await client.GetStringAsync($"api/item/{id}");
                 return await Task.Run(() => JsonConvert.DeserializeObject<Item>(json));
@@ -59,7 +58,7 @@ namespace acuario
 
         public async Task<bool> AddItemAsync(Item item)
         {
-            if (item == null || !CrossConnectivity.Current.IsConnected)
+            if (item == null || !IsConnected)
                 return false;
 
             var serializedItem = JsonConvert.SerializeObject(item);
@@ -71,7 +70,7 @@ namespace acuario
 
         public async Task<bool> UpdateItemAsync(Item item)
         {
-            if (item == null || item.Id == null || !CrossConnectivity.Current.IsConnected)
+            if (item == null || item.Id == null || !IsConnected)
                 return false;
 
             var serializedItem = JsonConvert.SerializeObject(item);
@@ -85,7 +84,7 @@ namespace acuario
 
         public async Task<bool> DeleteItemAsync(string id)
         {
-            if (string.IsNullOrEmpty(id) && !CrossConnectivity.Current.IsConnected)
+            if (string.IsNullOrEmpty(id) && !IsConnected)
                 return false;
 
             var response = await client.DeleteAsync($"api/item/{id}");

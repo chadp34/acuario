@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\acuario",
+    "\\acuario\\Services",
     "\\Droid",
     "\\iOS"
   ],
-  "SelectedNode": "\\iOS",
+  "SelectedNode": "\\acuario\\Services\\CloudDataStore.cs",
   "PreviewInSolutionExplorer": false
 }
