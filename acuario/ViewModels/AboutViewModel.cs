@@ -1,6 +1,9 @@
-﻿using System.Windows.Input;
+﻿using System;
+using System.Windows.Input;
 
-namespace acuario
+using Xamarin.Forms;
+
+namespace acuario.ViewModels
 {
     public class AboutViewModel : BaseViewModel
     {
@@ -8,7 +11,7 @@ namespace acuario
         {
             Title = "About";
 
-            OpenWebCommand = new Command(() => Plugin.Share.CrossShare.Current.OpenBrowser("https://xamarin.com/platform"));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
         }
 
         public ICommand OpenWebCommand { get; }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace acuario
+namespace acuario.Models
 {
     public class Item
     {

@@ -3,20 +3,30 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace acuario
+using Xamarin.Forms;
+
+using acuario.Models;
+using acuario.Views;
+
+namespace acuario.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {
         public ObservableCollection<Item> Items { get; set; }
         public Command LoadItemsCommand { get; set; }
-        public Command AddItemCommand { get; set; }
 
         public ItemsViewModel()
         {
             Title = "Collection";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
-            AddItemCommand = new Command<Item>(async (Item item) => await AddItem(item));
+
+            MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
+            {
+                var newItem = item as Item;
+                Items.Add(newItem);
+                await DataStore.AddItemAsync(newItem);
+            });
         }
 
         async Task ExecuteLoadItemsCommand()
@@ -43,12 +53,6 @@ namespace acuario
             {
                 IsBusy = false;
             }
-        }
-
-        async Task AddItem(Item item)
-        {
-            Items.Add(item);
-            await DataStore.AddItemAsync(item);
         }
     }
 }
