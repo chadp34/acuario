@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="acuario.Views.SelectionPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Configure" Clicked="OnActionSheetSimpleClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="LabelEn" Text="Welcome to Acuario!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" FontSize="40" FontAttributes="Bold" FontFamily="" />
+            <Label x:Name="LabelEs" Text="Bienvenido a Acuario!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" Margin="0,10,0,0" FontSize="40" FontAttributes="Bold" FontFamily="" />
+            <Label x:Name="LabelFr" Text="Bienvenue à Acuario!"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" Margin="0,10,0,0" FontSize="40" FontAttributes="Bold" FontFamily="" />
+            <Label x:Name="LabelConfiguration" Text="Configure to Select Language" HorizontalOptions="CenterAndExpand" Margin="0,40,0,0" FontSize="Large"/>
+            <Label x:Name="LabelLanguage" Text="Language is" HorizontalOptions="CenterAndExpand" Margin="0,40,0,0" FontSize="Large" IsVisible="False"/>
+            <Button x:Name="ButtonSubmit" Text="Next" VerticalOptions="EndAndExpand" Clicked="OnClicked" FontSize="Default" IsEnabled="False" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
