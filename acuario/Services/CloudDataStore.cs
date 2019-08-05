@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using acuario.Models;
+using acuario.Views;
 
 namespace acuario.Services
 {
@@ -36,8 +37,11 @@ namespace acuario.Services
                     var item = new Item();
                     item.Id = jaItem["collection"]["en"].Value<string>();
 
-                    item.Text = jaItem["collection"]["es"].Value<string>();
-                    item.Description = jaItem["collection"]["en"].Value<string>();
+                    //This is what it is
+                    var lang = SelectionPage.lang;
+
+                    item.Text = jaItem["collection"][lang].Value<string>();
+                    item.Description = jaItem["collection"][lang].Value<string>();
                     (items as List<Item>).Add(item);
                 }                
             }
