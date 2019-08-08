@@ -35,7 +35,7 @@ namespace acuario
 
                 bool PropName = Application.Current.Properties["Language"] is bool;
 
-                if (PropName = true)
+                if (PropName == true)
                 {
                     MainPage = new MainPage();
                 }
