@@ -36,16 +36,23 @@ namespace acuario.Services
                 {
                     var item = new Item();
                     item.Id = jaItem["collection"]["en"].Value<string>();
+                    item.Attractions = new List<Attraction>();
 
                     //This is what it is
                     var lang = SelectionPage.lang;
 
                     item.Text = jaItem["collection"][lang].Value<string>();
                     item.Description = jaItem["collection"][lang].Value<string>();
+                    foreach (var jaAttraction in jaItem["attractions"].Children())
+                    {
+                        var attraction = new Attraction();
+                        attraction.Text = jaAttraction["name"][lang].Value<string>();
+                        attraction.Url = jaAttraction["url"][lang].Value<string>();
+                        (item.Attractions).Add(attraction);
+                    }
                     (items as List<Item>).Add(item);
                 }                
             }
-
             return items;
         }
 
